@@ -1,4 +1,4 @@
-FROM centos:7
+FROM Centos:7
 RUN mkdir /incoming /input
 WORKDIR /
 CMD ["/bin/bash"]
